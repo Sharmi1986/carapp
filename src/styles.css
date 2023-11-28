@@ -1,0 +1,113 @@
+abbr[title] {
+    text-decoration: none;
+}
+.react-calendar__month-view__weekdays__weekday {
+    flex: 1 1;
+    padding: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    padding: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+  
+.item-legend {
+    display: inline-block;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .block-color {
+    display: inline-block;
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    margin-right: 5px; /* Adjust as needed */
+    margin-top: 10px;
+  }
+ 
+  
+  .selected .block-color {
+    background-color: #ff0000; 
+
+  }
+  
+  .available .block-color {
+    background-color: #efece7; /* Adjust color as needed */
+  }
+  
+  .not-available .block-color {
+    background-color: #120c0e;; /* Adjust color as needed */
+  }
+  /* Add these styles to your styles.css file or equivalent */
+
+/* Style for the calendar */
+.react-calendar {
+    /* Add your general calendar styles here */
+    font-size: 28px; /* Adjust the font size as needed */
+    padding: 20px; 
+    color: white;
+    
+  }
+  
+  /* Style for selected dates */
+  .react-calendar .react-calendar__tile--active {
+    background-color: #ff0000 !important; /* Red color for selected dates */
+  }
+  
+  /* Style for available dates */
+  .react-calendar .react-calendar__tile--available {
+    background-color: #efece7; /* Light color for available dates */
+  }
+  
+  /* Style for not available dates */
+  .react-calendar .react-calendar__tile--disabled {
+    background-color: #120c0e; /* Dark color for not available dates */
+  }
+  
+  /* Additional style for the legend block color */
+  .item-legend .block-color {
+    display: inline-block;
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    margin-right: 5px; /* Adjust as needed */
+    margin-top: 10px;
+  }
+  
+  /* Additional styles for the legend text */
+  .item-legend .legend-name {
+    display: inline-block;
+  }
+  .react-calendar__tile--active {
+    background: #ff0000; /* Change this color to the active background color you want */
+    color: white;
+  }
+  
+  .react-calendar__tile--available {
+    background: #efece7; /* Change this color to the available background color you want */
+    color: black;
+  }
+  
+  .react-calendar__tile--disabled {
+    background: #120c0e; /* Change this color to the disabled background color you want */
+    color: white; /* Change this color to the disabled font color you want */
+  }
+  .react-calendar__month-view__weekdays {
+    background: #333; /* Change this color to the background color you want for the weekdays */
+    color: white;
+  }
+  
+  .react-calendar__month-view__weekdays__weekday {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .react-calendar__navigation {
+    justify-content: center;
+  }
+  
+  
+  
